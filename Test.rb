@@ -43,6 +43,7 @@ drawBoard(board)
     turn = false
   end
   position = gets.chomp
+system('cls')
   if board[position.to_i]==" "
   if turn == true
     board[position.to_i] = "o"
@@ -50,10 +51,10 @@ drawBoard(board)
     board[position.to_i] = "x"
   end
   else
-    puts "already taken dickwad, try again"
+    puts "already taken silly, try again"
     turn = !turn
   end
-system('cls')
+
 x=checkWin(board)
 if x != "none"
   if x == "o"

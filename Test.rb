@@ -29,7 +29,7 @@ def checkWin(board)
 end
 
 
-board=[" "," "," "," "," "," "," "," "," "]
+board=[" "," "," "," "," "," "," "," "," "," "]
 turn=false
 won = false
 puts "Naughts and crosses"
